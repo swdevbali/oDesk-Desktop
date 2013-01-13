@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C92B217816A2E6FD001F814F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92B217716A2E6FD001F814F /* Cocoa.framework */; };
+		C92B218216A2E6FD001F814F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C92B218016A2E6FD001F814F /* InfoPlist.strings */; };
+		C92B218416A2E6FD001F814F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C92B218316A2E6FD001F814F /* main.m */; };
+		C92B218816A2E6FD001F814F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C92B218616A2E6FD001F814F /* Credits.rtf */; };
+		C92B218B16A2E6FD001F814F /* oDeskDesktopAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C92B218A16A2E6FD001F814F /* oDeskDesktopAppDelegate.m */; };
+		C92B218E16A2E6FD001F814F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C92B218C16A2E6FD001F814F /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C92B217316A2E6FD001F814F /* oDesk Desktop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "oDesk Desktop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C92B217716A2E6FD001F814F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C92B217A16A2E6FD001F814F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C92B217B16A2E6FD001F814F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C92B217C16A2E6FD001F814F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C92B217F16A2E6FD001F814F /* oDesk Desktop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "oDesk Desktop-Info.plist"; sourceTree = "<group>"; };
+		C92B218116A2E6FD001F814F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C92B218316A2E6FD001F814F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C92B218516A2E6FD001F814F /* oDesk Desktop-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "oDesk Desktop-Prefix.pch"; sourceTree = "<group>"; };
+		C92B218716A2E6FD001F814F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C92B218916A2E6FD001F814F /* oDeskDesktopAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = oDeskDesktopAppDelegate.h; sourceTree = "<group>"; };
+		C92B218A16A2E6FD001F814F /* oDeskDesktopAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = oDeskDesktopAppDelegate.m; sourceTree = "<group>"; };
+		C92B218D16A2E6FD001F814F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C92B217016A2E6FD001F814F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C92B217816A2E6FD001F814F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C92B216816A2E6FD001F814F = {
+			isa = PBXGroup;
+			children = (
+				C92B217D16A2E6FD001F814F /* oDesk Desktop */,
+				C92B217616A2E6FD001F814F /* Frameworks */,
+				C92B217416A2E6FD001F814F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C92B217416A2E6FD001F814F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C92B217316A2E6FD001F814F /* oDesk Desktop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C92B217616A2E6FD001F814F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C92B217716A2E6FD001F814F /* Cocoa.framework */,
+				C92B217916A2E6FD001F814F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C92B217916A2E6FD001F814F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C92B217A16A2E6FD001F814F /* AppKit.framework */,
+				C92B217B16A2E6FD001F814F /* CoreData.framework */,
+				C92B217C16A2E6FD001F814F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C92B217D16A2E6FD001F814F /* oDesk Desktop */ = {
+			isa = PBXGroup;
+			children = (
+				C92B218916A2E6FD001F814F /* oDeskDesktopAppDelegate.h */,
+				C92B218A16A2E6FD001F814F /* oDeskDesktopAppDelegate.m */,
+				C92B218C16A2E6FD001F814F /* MainMenu.xib */,
+				C92B217E16A2E6FD001F814F /* Supporting Files */,
+			);
+			path = "oDesk Desktop";
+			sourceTree = "<group>";
+		};
+		C92B217E16A2E6FD001F814F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C92B217F16A2E6FD001F814F /* oDesk Desktop-Info.plist */,
+				C92B218016A2E6FD001F814F /* InfoPlist.strings */,
+				C92B218316A2E6FD001F814F /* main.m */,
+				C92B218516A2E6FD001F814F /* oDesk Desktop-Prefix.pch */,
+				C92B218616A2E6FD001F814F /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C92B217216A2E6FD001F814F /* oDesk Desktop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C92B219116A2E6FD001F814F /* Build configuration list for PBXNativeTarget "oDesk Desktop" */;
+			buildPhases = (
+				C92B216F16A2E6FD001F814F /* Sources */,
+				C92B217016A2E6FD001F814F /* Frameworks */,
+				C92B217116A2E6FD001F814F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "oDesk Desktop";
+			productName = "oDesk Desktop";
+			productReference = C92B217316A2E6FD001F814F /* oDesk Desktop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C92B216A16A2E6FD001F814F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = oDeskDesktop;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Eko Wibowo";
+			};
+			buildConfigurationList = C92B216D16A2E6FD001F814F /* Build configuration list for PBXProject "oDesk Desktop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C92B216816A2E6FD001F814F;
+			productRefGroup = C92B217416A2E6FD001F814F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C92B217216A2E6FD001F814F /* oDesk Desktop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C92B217116A2E6FD001F814F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C92B218216A2E6FD001F814F /* InfoPlist.strings in Resources */,
+				C92B218816A2E6FD001F814F /* Credits.rtf in Resources */,
+				C92B218E16A2E6FD001F814F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C92B216F16A2E6FD001F814F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C92B218416A2E6FD001F814F /* main.m in Sources */,
+				C92B218B16A2E6FD001F814F /* oDeskDesktopAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C92B218016A2E6FD001F814F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C92B218116A2E6FD001F814F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C92B218616A2E6FD001F814F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C92B218716A2E6FD001F814F /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C92B218C16A2E6FD001F814F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C92B218D16A2E6FD001F814F /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C92B218F16A2E6FD001F814F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C92B219016A2E6FD001F814F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C92B219216A2E6FD001F814F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "oDesk Desktop/oDesk Desktop-Prefix.pch";
+				INFOPLIST_FILE = "oDesk Desktop/oDesk Desktop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C92B219316A2E6FD001F814F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "oDesk Desktop/oDesk Desktop-Prefix.pch";
+				INFOPLIST_FILE = "oDesk Desktop/oDesk Desktop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C92B216D16A2E6FD001F814F /* Build configuration list for PBXProject "oDesk Desktop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C92B218F16A2E6FD001F814F /* Debug */,
+				C92B219016A2E6FD001F814F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C92B219116A2E6FD001F814F /* Build configuration list for PBXNativeTarget "oDesk Desktop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C92B219216A2E6FD001F814F /* Debug */,
+				C92B219316A2E6FD001F814F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C92B216A16A2E6FD001F814F /* Project object */;
+}
