@@ -9,10 +9,12 @@
 #import "oDeskDesktopAppDelegate.h"
 
 @implementation oDeskDesktopAppDelegate
+@synthesize webView;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+   [[webView mainFrame] loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.odesk.com"]]];
 }
+
 
 @end

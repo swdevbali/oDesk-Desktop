@@ -13,6 +13,8 @@
 		C92B218816A2E6FD001F814F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C92B218616A2E6FD001F814F /* Credits.rtf */; };
 		C92B218B16A2E6FD001F814F /* oDeskDesktopAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C92B218A16A2E6FD001F814F /* oDeskDesktopAppDelegate.m */; };
 		C92B218E16A2E6FD001F814F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C92B218C16A2E6FD001F814F /* MainMenu.xib */; };
+		C92B219516A2E8BF001F814F /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92B219416A2E8BF001F814F /* WebKit.framework */; };
+		C92B219716A2F56E001F814F /* oDesk Desktop.iconset in Resources */ = {isa = PBXBuildFile; fileRef = C92B219616A2F56E001F814F /* oDesk Desktop.iconset */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,9 @@
 		C92B218916A2E6FD001F814F /* oDeskDesktopAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = oDeskDesktopAppDelegate.h; sourceTree = "<group>"; };
 		C92B218A16A2E6FD001F814F /* oDeskDesktopAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = oDeskDesktopAppDelegate.m; sourceTree = "<group>"; };
 		C92B218D16A2E6FD001F814F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C92B219416A2E8BF001F814F /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		C92B219616A2F56E001F814F /* oDesk Desktop.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = "oDesk Desktop.iconset"; sourceTree = "<group>"; };
+		C92B219816A2F68A001F814F /* oDesk Desktop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "oDesk Desktop.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C92B219516A2E8BF001F814F /* WebKit.framework in Frameworks */,
 				C92B217816A2E6FD001F814F /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +52,8 @@
 		C92B216816A2E6FD001F814F = {
 			isa = PBXGroup;
 			children = (
+				C92B219616A2F56E001F814F /* oDesk Desktop.iconset */,
+				C92B219416A2E8BF001F814F /* WebKit.framework */,
 				C92B217D16A2E6FD001F814F /* oDesk Desktop */,
 				C92B217616A2E6FD001F814F /* Frameworks */,
 				C92B217416A2E6FD001F814F /* Products */,
@@ -82,6 +90,7 @@
 		C92B217D16A2E6FD001F814F /* oDesk Desktop */ = {
 			isa = PBXGroup;
 			children = (
+				C92B219816A2F68A001F814F /* oDesk Desktop.entitlements */,
 				C92B218916A2E6FD001F814F /* oDeskDesktopAppDelegate.h */,
 				C92B218A16A2E6FD001F814F /* oDeskDesktopAppDelegate.m */,
 				C92B218C16A2E6FD001F814F /* MainMenu.xib */,
@@ -157,6 +166,7 @@
 				C92B218216A2E6FD001F814F /* InfoPlist.strings in Resources */,
 				C92B218816A2E6FD001F814F /* Credits.rtf in Resources */,
 				C92B218E16A2E6FD001F814F /* MainMenu.xib in Resources */,
+				C92B219716A2F56E001F814F /* oDesk Desktop.iconset in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
