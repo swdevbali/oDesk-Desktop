@@ -14,6 +14,8 @@
 			<string>NSCustomObject</string>
 			<string>NSMenu</string>
 			<string>NSMenuItem</string>
+			<string>NSTabView</string>
+			<string>NSTabViewItem</string>
 			<string>NSView</string>
 			<string>NSWindowTemplate</string>
 			<string>WebView</string>
@@ -203,7 +205,7 @@
 			<object class="NSWindowTemplate" id="972006081">
 				<int key="NSWindowStyleMask">15</int>
 				<int key="NSWindowBacking">2</int>
-				<string key="NSWindowRect">{{335, 390}, {480, 423}}</string>
+				<string key="NSWindowRect">{{335, 390}, {480, 438}}</string>
 				<int key="NSWTFlags">1954021376</int>
 				<string key="NSWindowTitle">oDesk - Changing How The World Works</string>
 				<string key="NSWindowClass">NSWindow</string>
@@ -213,49 +215,228 @@
 					<reference key="NSNextResponder"/>
 					<int key="NSvFlags">256</int>
 					<array class="NSMutableArray" key="NSSubviews">
-						<object class="WebView" id="906448175">
+						<object class="NSTabView" id="24855085">
 							<reference key="NSNextResponder" ref="439893737"/>
 							<int key="NSvFlags">274</int>
-							<set class="NSMutableSet" key="NSDragTypes">
-								<string>Apple HTML pasteboard type</string>
-								<string>Apple PDF pasteboard type</string>
-								<string>Apple PICT pasteboard type</string>
-								<string>Apple URL pasteboard type</string>
-								<string>Apple Web Archive pasteboard type</string>
-								<string>NSColor pasteboard type</string>
-								<string>NSFilenamesPboardType</string>
-								<string>NSStringPboardType</string>
-								<string>NeXT RTFD pasteboard type</string>
-								<string>NeXT Rich Text Format v1.0 pasteboard type</string>
-								<string>NeXT TIFF v4.0 pasteboard type</string>
-								<string>WebURLsWithTitlesPboardType</string>
-								<string>public.png</string>
-								<string>public.url</string>
-								<string>public.url-name</string>
-							</set>
-							<string key="NSFrameSize">{480, 423}</string>
+							<string key="NSFrame">{{13, 25}, {454, 407}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView"/>
+							<reference key="NSNextKeyView" ref="694137124"/>
 							<string key="NSReuseIdentifierKey">_NS:9</string>
-							<string key="FrameName"/>
-							<string key="GroupName"/>
-							<object class="WebPreferences" key="Preferences">
-								<string key="Identifier"/>
-								<dictionary class="NSMutableDictionary" key="Values">
-									<integer value="12" key="WebKitDefaultFixedFontSize"/>
-									<integer value="12" key="WebKitDefaultFontSize"/>
-									<integer value="1" key="WebKitMinimumFontSize"/>
-								</dictionary>
+							<array class="NSMutableArray" key="NSTabViewItems">
+								<object class="NSTabViewItem" id="962440812">
+									<string key="NSIdentifier">1</string>
+									<object class="NSView" key="NSView" id="991866754">
+										<nil key="NSNextResponder"/>
+										<int key="NSvFlags">256</int>
+										<array class="NSMutableArray" key="NSSubviews">
+											<object class="WebView" id="906448175">
+												<reference key="NSNextResponder" ref="991866754"/>
+												<int key="NSvFlags">274</int>
+												<set class="NSMutableSet" key="NSDragTypes">
+													<string>Apple HTML pasteboard type</string>
+													<string>Apple PDF pasteboard type</string>
+													<string>Apple PICT pasteboard type</string>
+													<string>Apple URL pasteboard type</string>
+													<string>Apple Web Archive pasteboard type</string>
+													<string>NSColor pasteboard type</string>
+													<string>NSFilenamesPboardType</string>
+													<string>NSStringPboardType</string>
+													<string>NeXT RTFD pasteboard type</string>
+													<string>NeXT Rich Text Format v1.0 pasteboard type</string>
+													<string>NeXT TIFF v4.0 pasteboard type</string>
+													<string>WebURLsWithTitlesPboardType</string>
+													<string>public.png</string>
+													<string>public.url</string>
+													<string>public.url-name</string>
+												</set>
+												<string key="NSFrame">{{-3, -3}, {440, 347}}</string>
+												<reference key="NSSuperview" ref="991866754"/>
+												<reference key="NSNextKeyView"/>
+												<string key="NSReuseIdentifierKey">_NS:9</string>
+												<string key="FrameName"/>
+												<string key="GroupName"/>
+												<object class="WebPreferences" key="Preferences" id="67979181">
+													<string key="Identifier"/>
+													<dictionary class="NSMutableDictionary" key="Values">
+														<integer value="12" key="WebKitDefaultFixedFontSize"/>
+														<integer value="12" key="WebKitDefaultFontSize"/>
+														<integer value="1" key="WebKitMinimumFontSize"/>
+													</dictionary>
+												</object>
+												<bool key="UseBackForwardList">YES</bool>
+												<bool key="AllowsUndo">YES</bool>
+											</object>
+										</array>
+										<string key="NSFrame">{{10, 33}, {434, 361}}</string>
+										<reference key="NSNextKeyView" ref="906448175"/>
+										<string key="NSReuseIdentifierKey">_NS:11</string>
+									</object>
+									<string key="NSLabel">oDesk</string>
+									<object class="NSColor" key="NSColor" id="417798124">
+										<int key="NSColorSpace">6</int>
+										<string key="NSCatalogName">System</string>
+										<string key="NSColorName">controlColor</string>
+										<object class="NSColor" key="NSColor">
+											<int key="NSColorSpace">3</int>
+											<bytes key="NSWhite">MC42NjY2NjY2NjY3AA</bytes>
+										</object>
+									</object>
+									<reference key="NSTabView" ref="24855085"/>
+								</object>
+								<object class="NSTabViewItem" id="302758964">
+									<string key="NSIdentifier">2</string>
+									<object class="NSView" key="NSView" id="119741841">
+										<nil key="NSNextResponder"/>
+										<int key="NSvFlags">256</int>
+										<array class="NSMutableArray" key="NSSubviews">
+											<object class="WebView" id="1044830359">
+												<reference key="NSNextResponder" ref="119741841"/>
+												<int key="NSvFlags">274</int>
+												<set class="NSMutableSet" key="NSDragTypes">
+													<string>Apple HTML pasteboard type</string>
+													<string>Apple PDF pasteboard type</string>
+													<string>Apple PICT pasteboard type</string>
+													<string>Apple URL pasteboard type</string>
+													<string>Apple Web Archive pasteboard type</string>
+													<string>NSColor pasteboard type</string>
+													<string>NSFilenamesPboardType</string>
+													<string>NSStringPboardType</string>
+													<string>NeXT RTFD pasteboard type</string>
+													<string>NeXT Rich Text Format v1.0 pasteboard type</string>
+													<string>NeXT TIFF v4.0 pasteboard type</string>
+													<string>WebURLsWithTitlesPboardType</string>
+													<string>public.png</string>
+													<string>public.url</string>
+													<string>public.url-name</string>
+												</set>
+												<string key="NSFrame">{{-3, -3}, {440, 347}}</string>
+												<reference key="NSSuperview" ref="119741841"/>
+												<reference key="NSNextKeyView"/>
+												<string key="NSReuseIdentifierKey">_NS:9</string>
+												<string key="FrameName"/>
+												<string key="GroupName"/>
+												<reference key="Preferences" ref="67979181"/>
+												<bool key="UseBackForwardList">YES</bool>
+												<bool key="AllowsUndo">YES</bool>
+											</object>
+										</array>
+										<string key="NSFrame">{{10, 33}, {434, 361}}</string>
+										<reference key="NSNextKeyView" ref="1044830359"/>
+										<string key="NSReuseIdentifierKey">_NS:28</string>
+									</object>
+									<string key="NSLabel">Trello</string>
+									<reference key="NSColor" ref="417798124"/>
+									<reference key="NSTabView" ref="24855085"/>
+								</object>
+								<object class="NSTabViewItem" id="1061795286">
+									<object class="NSView" key="NSView" id="706647703">
+										<nil key="NSNextResponder"/>
+										<int key="NSvFlags">256</int>
+										<array class="NSMutableArray" key="NSSubviews">
+											<object class="WebView" id="646899919">
+												<reference key="NSNextResponder" ref="706647703"/>
+												<int key="NSvFlags">274</int>
+												<set class="NSMutableSet" key="NSDragTypes">
+													<string>Apple HTML pasteboard type</string>
+													<string>Apple PDF pasteboard type</string>
+													<string>Apple PICT pasteboard type</string>
+													<string>Apple URL pasteboard type</string>
+													<string>Apple Web Archive pasteboard type</string>
+													<string>NSColor pasteboard type</string>
+													<string>NSFilenamesPboardType</string>
+													<string>NSStringPboardType</string>
+													<string>NeXT RTFD pasteboard type</string>
+													<string>NeXT Rich Text Format v1.0 pasteboard type</string>
+													<string>NeXT TIFF v4.0 pasteboard type</string>
+													<string>WebURLsWithTitlesPboardType</string>
+													<string>public.png</string>
+													<string>public.url</string>
+													<string>public.url-name</string>
+												</set>
+												<string key="NSFrame">{{-3, 14}, {440, 347}}</string>
+												<reference key="NSSuperview" ref="706647703"/>
+												<reference key="NSNextKeyView"/>
+												<string key="NSReuseIdentifierKey">_NS:9</string>
+												<string key="FrameName"/>
+												<string key="GroupName"/>
+												<reference key="Preferences" ref="67979181"/>
+												<bool key="UseBackForwardList">YES</bool>
+												<bool key="AllowsUndo">YES</bool>
+											</object>
+										</array>
+										<string key="NSFrame">{{10, 33}, {434, 361}}</string>
+										<reference key="NSNextKeyView" ref="646899919"/>
+									</object>
+									<string key="NSLabel">Gmail</string>
+									<reference key="NSColor" ref="417798124"/>
+									<reference key="NSTabView" ref="24855085"/>
+								</object>
+								<object class="NSTabViewItem" id="430008029">
+									<object class="NSView" key="NSView" id="694137124">
+										<reference key="NSNextResponder" ref="24855085"/>
+										<int key="NSvFlags">256</int>
+										<array class="NSMutableArray" key="NSSubviews">
+											<object class="WebView" id="43839695">
+												<reference key="NSNextResponder" ref="694137124"/>
+												<int key="NSvFlags">274</int>
+												<set class="NSMutableSet" key="NSDragTypes">
+													<string>Apple HTML pasteboard type</string>
+													<string>Apple PDF pasteboard type</string>
+													<string>Apple PICT pasteboard type</string>
+													<string>Apple URL pasteboard type</string>
+													<string>Apple Web Archive pasteboard type</string>
+													<string>NSColor pasteboard type</string>
+													<string>NSFilenamesPboardType</string>
+													<string>NSStringPboardType</string>
+													<string>NeXT RTFD pasteboard type</string>
+													<string>NeXT Rich Text Format v1.0 pasteboard type</string>
+													<string>NeXT TIFF v4.0 pasteboard type</string>
+													<string>WebURLsWithTitlesPboardType</string>
+													<string>public.png</string>
+													<string>public.url</string>
+													<string>public.url-name</string>
+												</set>
+												<string key="NSFrame">{{-3, 14}, {440, 347}}</string>
+												<reference key="NSSuperview" ref="694137124"/>
+												<reference key="NSWindow"/>
+												<reference key="NSNextKeyView"/>
+												<string key="NSReuseIdentifierKey">_NS:9</string>
+												<string key="FrameName"/>
+												<string key="GroupName"/>
+												<reference key="Preferences" ref="67979181"/>
+												<bool key="UseBackForwardList">YES</bool>
+												<bool key="AllowsUndo">YES</bool>
+											</object>
+										</array>
+										<string key="NSFrame">{{10, 33}, {434, 361}}</string>
+										<reference key="NSSuperview" ref="24855085"/>
+										<reference key="NSWindow"/>
+										<reference key="NSNextKeyView" ref="43839695"/>
+									</object>
+									<string key="NSLabel">Google</string>
+									<reference key="NSColor" ref="417798124"/>
+									<reference key="NSTabView" ref="24855085"/>
+								</object>
+							</array>
+							<reference key="NSSelectedTabViewItem" ref="430008029"/>
+							<object class="NSFont" key="NSFont">
+								<string key="NSName">LucidaGrande</string>
+								<double key="NSSize">13</double>
+								<int key="NSfFlags">1044</int>
 							</object>
-							<bool key="UseBackForwardList">YES</bool>
-							<bool key="AllowsUndo">YES</bool>
+							<int key="NSTvFlags">0</int>
+							<bool key="NSAllowTruncatedLabels">YES</bool>
+							<bool key="NSDrawsBackground">YES</bool>
+							<array class="NSMutableArray" key="NSSubviews">
+								<reference ref="694137124"/>
+							</array>
 						</object>
 					</array>
-					<string key="NSFrameSize">{480, 423}</string>
+					<string key="NSFrameSize">{480, 438}</string>
 					<reference key="NSSuperview"/>
 					<reference key="NSWindow"/>
-					<reference key="NSNextKeyView" ref="906448175"/>
+					<reference key="NSNextKeyView" ref="24855085"/>
 				</object>
 				<string key="NSScreenRect">{{0, 0}, {1280, 778}}</string>
 				<string key="NSMaxSize">{10000000000000, 10000000000000}</string>
@@ -336,11 +517,35 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
-						<string key="label">webView</string>
+						<string key="label">webViewOdesk</string>
 						<reference key="source" ref="976324537"/>
 						<reference key="destination" ref="906448175"/>
 					</object>
-					<int key="connectionID">586</int>
+					<int key="connectionID">596</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">webViewTrello</string>
+						<reference key="source" ref="976324537"/>
+						<reference key="destination" ref="1044830359"/>
+					</object>
+					<int key="connectionID">597</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">webViewGmail</string>
+						<reference key="source" ref="976324537"/>
+						<reference key="destination" ref="646899919"/>
+					</object>
+					<int key="connectionID">604</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">webViewGoogle</string>
+						<reference key="source" ref="976324537"/>
+						<reference key="destination" ref="43839695"/>
+					</object>
+					<int key="connectionID">605</int>
 				</object>
 			</array>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -479,7 +684,7 @@
 						<int key="objectID">372</int>
 						<reference key="object" ref="439893737"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="906448175"/>
+							<reference ref="24855085"/>
 						</array>
 						<reference key="parent" ref="972006081"/>
 					</object>
@@ -515,9 +720,99 @@
 						<reference key="parent" ref="0"/>
 					</object>
 					<object class="IBObjectRecord">
+						<int key="objectID">590</int>
+						<reference key="object" ref="24855085"/>
+						<array class="NSMutableArray" key="children">
+							<reference ref="962440812"/>
+							<reference ref="302758964"/>
+							<reference ref="1061795286"/>
+							<reference ref="430008029"/>
+						</array>
+						<reference key="parent" ref="439893737"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">591</int>
+						<reference key="object" ref="962440812"/>
+						<array class="NSMutableArray" key="children">
+							<reference ref="991866754"/>
+						</array>
+						<reference key="parent" ref="24855085"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">592</int>
+						<reference key="object" ref="302758964"/>
+						<array class="NSMutableArray" key="children">
+							<reference ref="119741841"/>
+						</array>
+						<reference key="parent" ref="24855085"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">593</int>
+						<reference key="object" ref="119741841"/>
+						<array class="NSMutableArray" key="children">
+							<reference ref="1044830359"/>
+						</array>
+						<reference key="parent" ref="302758964"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">594</int>
+						<reference key="object" ref="991866754"/>
+						<array class="NSMutableArray" key="children">
+							<reference ref="906448175"/>
+						</array>
+						<reference key="parent" ref="962440812"/>
+					</object>
+					<object class="IBObjectRecord">
 						<int key="objectID">585</int>
 						<reference key="object" ref="906448175"/>
-						<reference key="parent" ref="439893737"/>
+						<reference key="parent" ref="991866754"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">595</int>
+						<reference key="object" ref="1044830359"/>
+						<reference key="parent" ref="119741841"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">598</int>
+						<reference key="object" ref="1061795286"/>
+						<array class="NSMutableArray" key="children">
+							<reference ref="706647703"/>
+						</array>
+						<reference key="parent" ref="24855085"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">599</int>
+						<reference key="object" ref="706647703"/>
+						<array class="NSMutableArray" key="children">
+							<reference ref="646899919"/>
+						</array>
+						<reference key="parent" ref="1061795286"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">600</int>
+						<reference key="object" ref="430008029"/>
+						<array class="NSMutableArray" key="children">
+							<reference ref="694137124"/>
+						</array>
+						<reference key="parent" ref="24855085"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">601</int>
+						<reference key="object" ref="694137124"/>
+						<array class="NSMutableArray" key="children">
+							<reference ref="43839695"/>
+						</array>
+						<reference key="parent" ref="430008029"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">602</int>
+						<reference key="object" ref="646899919"/>
+						<reference key="parent" ref="706647703"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">603</int>
+						<reference key="object" ref="43839695"/>
+						<reference key="parent" ref="694137124"/>
 					</object>
 				</array>
 			</object>
@@ -550,12 +845,32 @@
 				<string key="57.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="58.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="585.IBPluginDependency">com.apple.WebKitIBPlugin</string>
+				<object class="NSMutableDictionary" key="590.IBAttributePlaceholdersKey">
+					<string key="NS.key.0">InitialTabViewItem</string>
+					<object class="IBInitialTabViewItemAttribute" key="NS.object.0">
+						<string key="name">InitialTabViewItem</string>
+						<reference key="object" ref="24855085"/>
+						<reference key="initialTabViewItem" ref="962440812"/>
+					</object>
+				</object>
+				<string key="590.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="591.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="592.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="593.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="594.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="595.IBPluginDependency">com.apple.WebKitIBPlugin</string>
+				<string key="598.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="599.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="600.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="601.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="602.IBPluginDependency">com.apple.WebKitIBPlugin</string>
+				<string key="603.IBPluginDependency">com.apple.WebKitIBPlugin</string>
 			</dictionary>
 			<dictionary class="NSMutableDictionary" key="unlocalizedProperties"/>
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">586</int>
+			<int key="maxID">605</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -581,12 +896,27 @@
 					<string key="className">oDeskDesktopAppDelegate</string>
 					<string key="superclassName">NSObject</string>
 					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="webView">WebView</string>
+						<string key="webViewGmail">WebView</string>
+						<string key="webViewGoogle">WebView</string>
+						<string key="webViewOdesk">WebView</string>
+						<string key="webViewTrello">WebView</string>
 						<string key="window">NSWindow</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="webView">
-							<string key="name">webView</string>
+						<object class="IBToOneOutletInfo" key="webViewGmail">
+							<string key="name">webViewGmail</string>
+							<string key="candidateClassName">WebView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="webViewGoogle">
+							<string key="name">webViewGoogle</string>
+							<string key="candidateClassName">WebView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="webViewOdesk">
+							<string key="name">webViewOdesk</string>
+							<string key="candidateClassName">WebView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="webViewTrello">
+							<string key="name">webViewTrello</string>
 							<string key="candidateClassName">WebView</string>
 						</object>
 						<object class="IBToOneOutletInfo" key="window">

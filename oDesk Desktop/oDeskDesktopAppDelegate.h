@@ -12,5 +12,8 @@
 @interface oDeskDesktopAppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
-@property (assign) IBOutlet WebView *webView;
+@property (assign) IBOutlet WebView *webViewOdesk;
+@property (assign) IBOutlet WebView *webViewTrello;
+@property (assign) IBOutlet WebView *webViewGmail;
+@property (assign) IBOutlet WebView *webViewGoogle;
 @end
