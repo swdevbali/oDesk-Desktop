@@ -13,6 +13,10 @@
 @synthesize webViewTrello;
 @synthesize webViewGmail;
 @synthesize webViewGoogle;
+@synthesize toolbar;
+@synthesize toolbarRoles;
+@synthesize toolbarAchievement;
+@synthesize window;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
@@ -20,5 +24,14 @@
     [[webViewTrello mainFrame] loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://trello.com"]]];
     [[webViewGmail mainFrame] loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://gmail.com"]]];
     [[webViewGoogle mainFrame] loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://google.com"]]];
+    
+    [window setReleasedWhenClosed:NO]; 
 }
+
+- (BOOL)applicationShouldHandleReopen:(NSApplication *)sender hasVisibleWindows:(BOOL)flag{
+    [window setIsVisible:YES];
+    return YES;
+}
+
+
 @end

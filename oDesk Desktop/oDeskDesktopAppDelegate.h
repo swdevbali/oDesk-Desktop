@@ -16,4 +16,10 @@
 @property (assign) IBOutlet WebView *webViewTrello;
 @property (assign) IBOutlet WebView *webViewGmail;
 @property (assign) IBOutlet WebView *webViewGoogle;
+
+@property (strong) IBOutlet NSToolbar *toolbar;
+@property (strong) IBOutlet NSToolbarItem *toolbarRoles;
+@property (strong) IBOutlet NSToolbarItem *toolbarAchievement;
+@property (strong) IBOutlet NSProgressIndicator *progressOdesk;
+
 @end
