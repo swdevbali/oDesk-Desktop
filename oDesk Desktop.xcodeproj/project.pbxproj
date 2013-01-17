@@ -16,6 +16,9 @@
 		C92B218E16A2E6FD001F814F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C92B218C16A2E6FD001F814F /* MainMenu.xib */; };
 		C92B219516A2E8BF001F814F /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92B219416A2E8BF001F814F /* WebKit.framework */; };
 		C92B219716A2F56E001F814F /* oDesk Desktop.iconset in Resources */ = {isa = PBXBuildFile; fileRef = C92B219616A2F56E001F814F /* oDesk Desktop.iconset */; };
+		C9C58EF316A63A7200F41D4A /* roles.png in Resources */ = {isa = PBXBuildFile; fileRef = C9C58EF216A63A7200F41D4A /* roles.png */; };
+		C9C58EF616A63AD700F41D4A /* achievement.png in Resources */ = {isa = PBXBuildFile; fileRef = C9C58EF516A63AD700F41D4A /* achievement.png */; };
+		C9C58EF916A63C0300F41D4A /* ToolbarDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C58EF816A63C0300F41D4A /* ToolbarDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,10 @@
 		C92B219416A2E8BF001F814F /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		C92B219616A2F56E001F814F /* oDesk Desktop.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = "oDesk Desktop.iconset"; sourceTree = "<group>"; };
 		C92B219816A2F68A001F814F /* oDesk Desktop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "oDesk Desktop.entitlements"; sourceTree = "<group>"; };
+		C9C58EF216A63A7200F41D4A /* roles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roles.png; sourceTree = "<group>"; };
+		C9C58EF516A63AD700F41D4A /* achievement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = achievement.png; sourceTree = "<group>"; };
+		C9C58EF716A63C0300F41D4A /* ToolbarDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ToolbarDelegate.h; path = ../ToolbarDelegate.h; sourceTree = "<group>"; };
+		C9C58EF816A63C0300F41D4A /* ToolbarDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ToolbarDelegate.m; path = ../ToolbarDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +102,8 @@
 				C92B219816A2F68A001F814F /* oDesk Desktop.entitlements */,
 				C92B218916A2E6FD001F814F /* oDeskDesktopAppDelegate.h */,
 				C92B218A16A2E6FD001F814F /* oDeskDesktopAppDelegate.m */,
+				C9C58EF716A63C0300F41D4A /* ToolbarDelegate.h */,
+				C9C58EF816A63C0300F41D4A /* ToolbarDelegate.m */,
 				C92B218C16A2E6FD001F814F /* MainMenu.xib */,
 				C92B217E16A2E6FD001F814F /* Supporting Files */,
 			);
@@ -104,6 +113,8 @@
 		C92B217E16A2E6FD001F814F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C9C58EF516A63AD700F41D4A /* achievement.png */,
+				C9C58EF216A63A7200F41D4A /* roles.png */,
 				C9144BD216A6364500F8C87F /* background.jpg */,
 				C92B217F16A2E6FD001F814F /* oDesk Desktop-Info.plist */,
 				C92B218016A2E6FD001F814F /* InfoPlist.strings */,
@@ -171,6 +182,8 @@
 				C92B218E16A2E6FD001F814F /* MainMenu.xib in Resources */,
 				C92B219716A2F56E001F814F /* oDesk Desktop.iconset in Resources */,
 				C9144BD316A6364500F8C87F /* background.jpg in Resources */,
+				C9C58EF316A63A7200F41D4A /* roles.png in Resources */,
+				C9C58EF616A63AD700F41D4A /* achievement.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,6 +196,7 @@
 			files = (
 				C92B218416A2E6FD001F814F /* main.m in Sources */,
 				C92B218B16A2E6FD001F814F /* oDeskDesktopAppDelegate.m in Sources */,
+				C9C58EF916A63C0300F41D4A /* ToolbarDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
