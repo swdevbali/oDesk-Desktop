@@ -22,4 +22,6 @@
 @property (strong) IBOutlet NSToolbarItem *toolbarAchievement;
 @property (strong) IBOutlet NSProgressIndicator *progressOdesk;
 
+@property (strong) IBOutlet NSMenuItem *menuShowMainWindow;
+
 @end

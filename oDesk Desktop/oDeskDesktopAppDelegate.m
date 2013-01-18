@@ -33,5 +33,10 @@
     return YES;
 }
 
+- (IBAction)showMainWindow:(id)sender
+{
+    [window makeKeyAndOrderFront:self];
+}
+
 
 @end
