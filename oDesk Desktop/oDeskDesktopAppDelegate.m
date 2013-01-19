@@ -38,5 +38,39 @@
     [window makeKeyAndOrderFront:self];
 }
 
+- (IBAction)showRolesWindow:(id)sender
+{
+    NSAlert *alert = [[NSAlert alloc] init];
+    [alert setMessageText:@"Defines your roles!"];
+    [alert addButtonWithTitle:@"OK"];
+    [alert beginSheetModalForWindow:window
+                      modalDelegate:self
+                     didEndSelector:@selector(alertDidEnd:returnCode:contextInfo:)
+                        contextInfo:nil];
+    
+}
+- (void) alertDidEnd:(NSAlert *)a returnCode:(NSInteger)rc contextInfo:(void *)ci {
+    switch(rc) {
+        case NSAlertFirstButtonReturn:
+            // "First" pressed
+            break;
+        case NSAlertSecondButtonReturn:
+            // "Second" pressed
+            break;
+            // ...
+    }
+}
+
+- (IBAction)showAchievementWindow:(id)sender
+{
+    NSAlert *alert = [[NSAlert alloc] init];
+    [alert setMessageText:@"Track your achievement in completing Roles!"];
+    [alert addButtonWithTitle:@"OK"];
+    [alert beginSheetModalForWindow:window
+                      modalDelegate:self
+                     didEndSelector:@selector(alertDidEnd:returnCode:contextInfo:)
+                        contextInfo:nil];
+}
+
 
 @end
