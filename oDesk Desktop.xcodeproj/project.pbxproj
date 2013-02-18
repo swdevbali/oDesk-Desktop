@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C90B9FFF16AC130A00C6BC01 /* oDeskDesktopRolesController.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B9FFD16AC130A00C6BC01 /* oDeskDesktopRolesController.m */; };
+		C90BA00016AC130A00C6BC01 /* oDeskDesktopRolesController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C90B9FFE16AC130A00C6BC01 /* oDeskDesktopRolesController.xib */; };
 		C9144BD316A6364500F8C87F /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9144BD216A6364500F8C87F /* background.jpg */; };
 		C92B217816A2E6FD001F814F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92B217716A2E6FD001F814F /* Cocoa.framework */; };
 		C92B218216A2E6FD001F814F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C92B218016A2E6FD001F814F /* InfoPlist.strings */; };
@@ -22,6 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C90B9FFC16AC130A00C6BC01 /* oDeskDesktopRolesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oDeskDesktopRolesController.h; sourceTree = "<group>"; };
+		C90B9FFD16AC130A00C6BC01 /* oDeskDesktopRolesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = oDeskDesktopRolesController.m; sourceTree = "<group>"; };
+		C90B9FFE16AC130A00C6BC01 /* oDeskDesktopRolesController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = oDeskDesktopRolesController.xib; sourceTree = "<group>"; };
 		C9144BD216A6364500F8C87F /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 		C92B217316A2E6FD001F814F /* oDesk Desktop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "oDesk Desktop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C92B217716A2E6FD001F814F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -106,6 +111,9 @@
 				C9C58EF816A63C0300F41D4A /* ToolbarDelegate.m */,
 				C92B218C16A2E6FD001F814F /* MainMenu.xib */,
 				C92B217E16A2E6FD001F814F /* Supporting Files */,
+				C90B9FFC16AC130A00C6BC01 /* oDeskDesktopRolesController.h */,
+				C90B9FFD16AC130A00C6BC01 /* oDeskDesktopRolesController.m */,
+				C90B9FFE16AC130A00C6BC01 /* oDeskDesktopRolesController.xib */,
 			);
 			path = "oDesk Desktop";
 			sourceTree = "<group>";
@@ -184,6 +192,7 @@
 				C9144BD316A6364500F8C87F /* background.jpg in Resources */,
 				C9C58EF316A63A7200F41D4A /* roles.png in Resources */,
 				C9C58EF616A63AD700F41D4A /* achievement.png in Resources */,
+				C90BA00016AC130A00C6BC01 /* oDeskDesktopRolesController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +206,7 @@
 				C92B218416A2E6FD001F814F /* main.m in Sources */,
 				C92B218B16A2E6FD001F814F /* oDeskDesktopAppDelegate.m in Sources */,
 				C9C58EF916A63C0300F41D4A /* ToolbarDelegate.m in Sources */,
+				C90B9FFF16AC130A00C6BC01 /* oDeskDesktopRolesController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

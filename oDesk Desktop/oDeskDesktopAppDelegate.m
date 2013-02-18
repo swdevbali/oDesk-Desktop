@@ -7,6 +7,7 @@
 //
 
 #import "oDeskDesktopAppDelegate.h"
+#import "oDeskDesktopRolesController.h"
 
 @implementation oDeskDesktopAppDelegate
 @synthesize webViewOdesk;
@@ -40,14 +41,14 @@
 
 - (IBAction)showRolesWindow:(id)sender
 {
-    NSAlert *alert = [[NSAlert alloc] init];
-    [alert setMessageText:@"Defines your roles!"];
-    [alert addButtonWithTitle:@"OK"];
-    [alert beginSheetModalForWindow:window
-                      modalDelegate:self
-                     didEndSelector:@selector(alertDidEnd:returnCode:contextInfo:)
-                        contextInfo:nil];
+    oDeskDesktopRolesController *controllerWindow = [[oDeskDesktopRolesController alloc] initWithWindowNibName:@"oDeskDesktopRolesController"];
+    NSWindow *pAbtWindow = [controllerWindow window];
     
+    [NSApp runModalForWindow: pAbtWindow];
+    
+    [NSApp endSheet: pAbtWindow];
+    
+    [pAbtWindow orderOut: self];
 }
 - (void) alertDidEnd:(NSAlert *)a returnCode:(NSInteger)rc contextInfo:(void *)ci {
     switch(rc) {
